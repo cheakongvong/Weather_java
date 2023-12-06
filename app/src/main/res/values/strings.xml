@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="cloudy_sunny">Cloudy Sunny</string>
+    <string name="date">Fri November 04 | 11:00 AM</string>
+    <string name="temperature">25 °C</string>
+    <string name="speed">12Km/h</string>
+    <string name="wind_speed">Wind Speed</string>
+    <string name="high_low">High:27  Low: 24</string>
+    <string name="percent5">5%</string>
+    <string name="percent18">18%</string>
+    <string name="rain">Rain</string>
+    <string name="humidity">Humidity</string>
+    <string name="today">Today</string>
+    <string name="next_day">Next 7 Days </string>
+</resources>
