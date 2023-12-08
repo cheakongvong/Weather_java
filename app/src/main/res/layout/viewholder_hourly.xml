@@ -20,27 +20,30 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:text="TextView"
+            android:text="@string/textview"
 
             android:textAlignment="center"
             android:textColor="@color/white"
-            android:textSize="14sp" />
+            android:textSize="14sp"
+            tools:ignore="TextContrastCheck" />
 
         <ImageView
             android:id="@+id/pic"
             android:layout_width="45dp"
             android:layout_height="45dp"
             android:layout_gravity="center"
-            app:srcCompat="@drawable/cloudy_sunny" />
+            app:srcCompat="@drawable/cloudy_sunny"
+            android:importantForAccessibility="no" />
 
         <TextView
             android:id="@+id/tempTxt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:text="20"
+            android:text="@string/_20"
             android:textAlignment="center"
             android:textColor="@color/white"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            tools:ignore="TextContrastCheck" />
     </LinearLayout>
 </androidx.cardview.widget.CardView>

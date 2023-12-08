@@ -25,7 +25,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="@string/cloudy_sunny"
+                android:text="@string/windy"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
@@ -37,7 +37,8 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="16dp"
                 android:contentDescription="@string/cloudy_sunny"
-                app:srcCompat="@drawable/cloudy_sunny"
+                app:srcCompat="@drawable/windy"
+                tools:ignore="ImageContrastCheck"
                 tools:src="@tools:sample/avatars" />
 
             <TextView
@@ -48,7 +49,8 @@
                 android:text="@string/date"
                 android:textAlignment="center"
                 android:textColor="@color/white"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                tools:ignore="TextContrastCheck" />
 
             <TextView
                 android:id="@+id/textView3"
@@ -58,7 +60,8 @@
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="63sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                tools:ignore="TextContrastCheck" />
 
             <TextView
                 android:id="@+id/textView4"
@@ -92,6 +95,7 @@
                         android:layout_gravity="center"
                         android:contentDescription="@string/rain"
                         app:srcCompat="@drawable/rain"
+                        tools:ignore="ImageContrastCheck"
                         tools:src="@tools:sample/avatars" />
 
                     <TextView
@@ -109,7 +113,8 @@
                         android:layout_height="wrap_content"
                         android:text="@string/rain"
                         android:textAlignment="center"
-                        android:textColor="@color/white" />
+                        android:textColor="@color/white"
+                        tools:ignore="TextContrastCheck" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -126,6 +131,7 @@
                         android:layout_gravity="center"
                         android:contentDescription="@string/wind_speed"
                         app:srcCompat="@drawable/wind"
+                        tools:ignore="ImageContrastCheck"
                         tools:src="@tools:sample/avatars" />
 
                     <TextView
@@ -143,7 +149,8 @@
                         android:layout_height="wrap_content"
                         android:text="@string/wind_speed"
                         android:textAlignment="center"
-                        android:textColor="@color/white" />
+                        android:textColor="@color/white"
+                        tools:ignore="TextContrastCheck" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -160,6 +167,7 @@
                         android:layout_gravity="center"
                         android:contentDescription="@string/humidity"
                         app:srcCompat="@drawable/humidity"
+                        tools:ignore="ImageContrastCheck"
                         tools:src="@tools:sample/avatars" />
 
                     <TextView
@@ -177,7 +185,8 @@
                         android:layout_height="wrap_content"
                         android:text="@string/humidity"
                         android:textAlignment="center"
-                        android:textColor="@color/white" />
+                        android:textColor="@color/white"
+                        tools:ignore="TextContrastCheck" />
                 </LinearLayout>
 
             </LinearLayout>
@@ -216,6 +225,7 @@
                 android:id="@+id/view1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
                 android:clipToPadding="false"
                 android:paddingStart="8dp"
                 android:paddingEnd="8dp" />

@@ -44,7 +44,7 @@ public class FutureAdapter extends RecyclerView.Adapter<FutureAdapter.viewHolder
         holder.lowTxt.setText(items.get(position).getLowTemp()+"°C");
 
 
-        int drawableResourceId = holder.itemView.getResources()
+        @SuppressLint("DiscouragedApi") int drawableResourceId = holder.itemView.getResources()
                 .getIdentifier(items.get(position).getPicPath(),"drawable",holder.itemView.getContext().getPackageName());
         Glide.with(context)
                 .load(drawableResourceId)
@@ -56,7 +56,7 @@ public class FutureAdapter extends RecyclerView.Adapter<FutureAdapter.viewHolder
         return items.size();
     }
 
-    public class viewHolder extends RecyclerView.ViewHolder{
+    public static class viewHolder extends RecyclerView.ViewHolder{
         TextView dayTxt,statusTxt,highTxt,lowTxt;
         ImageView pic;
 

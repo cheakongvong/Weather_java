@@ -120,6 +120,7 @@
                             android:layout_gravity="center"
                             android:contentDescription="@string/rain"
                             app:srcCompat="@drawable/rain"
+                            tools:ignore="ImageContrastCheck"
                             tools:src="@tools:sample/avatars" />
 
                         <TextView
@@ -137,7 +138,8 @@
                             android:layout_height="wrap_content"
                             android:text="@string/rain"
                             android:textAlignment="center"
-                            android:textColor="@color/white" />
+                            android:textColor="@color/white"
+                            tools:ignore="TextContrastCheck" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -154,6 +156,7 @@
                             android:layout_gravity="center"
                             android:contentDescription="@string/wind_speed"
                             app:srcCompat="@drawable/wind"
+                            tools:ignore="ImageContrastCheck"
                             tools:src="@tools:sample/avatars" />
 
                         <TextView
@@ -171,7 +174,8 @@
                             android:layout_height="wrap_content"
                             android:text="@string/wind_speed"
                             android:textAlignment="center"
-                            android:textColor="@color/white" />
+                            android:textColor="@color/white"
+                            tools:ignore="TextContrastCheck" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -188,6 +192,7 @@
                             android:layout_gravity="center"
                             android:contentDescription="@string/humidity"
                             app:srcCompat="@drawable/humidity"
+                            tools:ignore="ImageContrastCheck"
                             tools:src="@tools:sample/avatars" />
 
                         <TextView
@@ -205,7 +210,8 @@
                             android:layout_height="wrap_content"
                             android:text="@string/humidity"
                             android:textAlignment="center"
-                            android:textColor="@color/white" />
+                            android:textColor="@color/white"
+                            tools:ignore="TextContrastCheck" />
                     </LinearLayout>
 
                 </LinearLayout>

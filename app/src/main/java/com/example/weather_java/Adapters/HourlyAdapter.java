@@ -1,5 +1,6 @@
 package com.example.weather_java.Adapters;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -32,12 +33,13 @@ public class HourlyAdapter extends RecyclerView.Adapter<HourlyAdapter.viewHolder
         return new viewHolder(inflate);
     }
 
+    @SuppressLint("SetTextI18n")
     @Override
     public void onBindViewHolder(@NonNull HourlyAdapter.viewHolder holder, int position) {
         holder.hourTxt.setText(items.get(position).getHour());
         holder.tempTxt.setText(items.get(position).getTemp()+"°C");
 
-        int drawableResourceId = holder.itemView.getResources()
+        @SuppressLint("DiscouragedApi") int drawableResourceId = holder.itemView.getResources()
                 .getIdentifier(items.get(position).getPicPath(),"drawable",holder.itemView.getContext().getPackageName());
         Glide.with(context)
                 .load(drawableResourceId)
@@ -49,7 +51,7 @@ public class HourlyAdapter extends RecyclerView.Adapter<HourlyAdapter.viewHolder
         return items.size();
     }
 
-    public class viewHolder extends RecyclerView.ViewHolder{
+    public static class viewHolder extends RecyclerView.ViewHolder{
         TextView hourTxt,tempTxt;
         ImageView pic;
 

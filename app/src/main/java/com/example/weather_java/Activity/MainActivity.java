@@ -6,7 +6,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.TextView;
 
 import com.example.weather_java.Adapters.HourlyAdapter;
@@ -16,8 +15,6 @@ import com.example.weather_java.R;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
-    private RecyclerView.Adapter adapterHourly;
-    private RecyclerView recyclerView;
 
 
     @Override
@@ -37,15 +34,19 @@ public class MainActivity extends AppCompatActivity {
     private void initRecyclerview() {
         ArrayList<Hourly> items = new ArrayList<>();
 
-        items.add(new Hourly("9pm",28,"cloudy"));
-        items.add(new Hourly("11pm",29,"sunny"));
-        items.add(new Hourly("12pm",30,"wind"));
-        items.add(new Hourly("1am",29,"rainy"));
-        items.add(new Hourly("2am",27,"storm"));
+        items.add(new Hourly("7pm",28,"cloudy"));
+        items.add(new Hourly("9pm",29,"cloudy"));
+        items.add(new Hourly("11pm",30,"wind"));
+        items.add(new Hourly("1am",29,"cloudy"));
+        items.add(new Hourly("3am",27,"cloudy"));
+        items.add(new Hourly("5am",27,"cloudy"));
+        items.add(new Hourly("7am",27,"cloudy"));
+        items.add(new Hourly("9am",27,"cloudy"));
+        items.add(new Hourly("12am",27,"sunny"));
 
-        recyclerView = findViewById(R.id.view1);
+        RecyclerView recyclerView = findViewById(R.id.view1);
         recyclerView.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.HORIZONTAL,false));
-        adapterHourly = new HourlyAdapter(items);
+        RecyclerView.Adapter adapterHourly = new HourlyAdapter(items);
         recyclerView.setAdapter(adapterHourly);
     }
 }
