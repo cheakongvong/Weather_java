@@ -11,5 +11,7 @@
     <string name="rain">Rain</string>
     <string name="humidity">Humidity</string>
     <string name="today">Today</string>
-    <string name="next_day">Next 7 Days </string>
+    <string name="next_day">Next 7 Days > </string>
+    <string name="tmr">Tomorrow</string>
+    <string name="backbutton"></string>
 </resources>
