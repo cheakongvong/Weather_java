@@ -50,6 +50,5 @@ public class FutureActivity extends AppCompatActivity {
 
         adapterTomorrow = new FutureAdapter(items);
         recyclerView.setAdapter(adapterTomorrow);
-
     }
 }
