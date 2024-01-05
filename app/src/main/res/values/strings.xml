@@ -29,5 +29,6 @@
     <string name="sunset">Sunset</string>
     <string name="pressure">Pressure</string>
     <string name="feel_like">Feel Like</string>
-    <string name="searchbtn">searchBtn</string>
+    <string name="searchBtn">searchBtn</string>
+    <string name="search_your_location">Search your location</string>
 </resources>

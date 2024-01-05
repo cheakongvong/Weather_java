@@ -1,4 +1,4 @@
-package com.example.weather_java.Adapters;
+package com.example.weather_java.Views;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

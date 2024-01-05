@@ -8,7 +8,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.weather_java.Adapters.FutureAdapter;
+import com.example.weather_java.Views.FutureAdapter;
 import com.example.weather_java.Domains.FutureDomain;
 import com.example.weather_java.R;
 
