@@ -2,7 +2,7 @@
     <string name="app_name">Weather</string>
     <string name="cloudy_sunny">Cloudy Sunny</string>
     <string name="date">Fri December 08 | 6:00 pm</string>
-    <string name="temperature">26 °C</string>
+    <string name="temperature">20 °C</string>
     <string name="speed">1.2Km/h</string>
     <string name="windy">Windy</string>
     <string name="wind_speed">Wind Speed</string>
@@ -14,11 +14,20 @@
     <string name="today">Today</string>
     <string name="next_day">Next 7 Days > </string>
     <string name="tmr">Tomorrow</string>
-    <string name="backbutton"></string>
+    <string name="backbutton" />
     <string name="day">Day</string>
     <string name="_32_c">32°C</string>
     <string name="_10_c">10°C</string>
     <string name="status">status</string>
     <string name="textview">TextView</string>
     <string name="_20">20</string>
+    <string name="phnom_penh">Phnom Penh</string>
+    <string name="sunset_and_sunrise"><![CDATA[sunset and sunrise >>]]></string>
+    <string name="friday_08_december_6_00">Friday,08,December, 6:00</string>
+    <string name="feel_like_25_c">Feel Like 25°C</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="sunset">Sunset</string>
+    <string name="pressure">Pressure</string>
+    <string name="feel_like">Feel Like</string>
+    <string name="searchbtn">searchBtn</string>
 </resources>
